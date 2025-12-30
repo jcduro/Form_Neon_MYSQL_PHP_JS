@@ -1,0 +1,192 @@
+/* ------------------------------------------------------------------------------------------------
+
+     |  ___|  __ \  |   |  _ \   _ \   
+     | |      |   | |   | |   | |   |  
+ \   | |      |   | |   | __ <  |   |  
+\___/ \____| ____/ \___/ _| \_\\___/   
+                                       
+  ___|  _ \  __ \  ____|    _ )   _ _| __ \  ____|    \     ___|  
+ |     |   | |   | __|     _ \ \   |  |   | __|     _ \  \___ \  
+ |     |   | |   | |      ( `  <   |  |   | |      ___ \       | 
+\____|\___/ ____/ _____| \___/\/ ___|____/ _____|_/    _\_____/  
+
+  https://jcduro.bexartideas.com/index.php | 2025 | JC Duro Code & Ideas
+
+------------------------------------------------------------------------------------------------ */
+  /* Reseteo básico para evitar margenes extra */
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+/* Para que la cabecera sea visible sobre fondo negro */
+
+
+
+/* ---- Maquetacion ---- */
+
+:root {
+
+  --glass-border: rgba(58,158,255,.33);
+
+}
+
+
+
+main {
+  flex: 1 1 auto;
+   max-width: 1060px;
+  margin: 30px auto 30px auto;
+    background-color: #0c243cdd;
+ border-radius: 12px;
+  border: 2px solid var(--glass-border);
+  box-shadow: 0 0 44px #53e7ff38;
+padding: 25px 30px;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+    text-align: center;
+
+}
+
+
+.form-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  border: 1px solid #00f3ff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #00f3ff, inset 0 0 10px #00f3ff;
+  background: rgba(0, 0, 0, 0.9);
+
+}
+
+h2 {
+  text-align: center;
+  color: #00f3ff;
+  text-shadow: 0 0 10px #00f3ff;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  color: #00f3ff;
+  font-size: 0.9rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  background: #111;
+  border: 1px solid #00f3ff;
+  color: #00f3ff;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+}
+
+input[type="checkbox"] {
+  accent-color: #00f3ff;
+  margin-right: 8px;
+}
+
+button {
+  margin-top: 25px;
+  width: 100%;
+  padding: 12px;
+  background: #00f3ff;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #00f3ff;
+  font-size: 1rem;
+}
+
+button:hover {
+  background: #00c3cc;
+}
+
+
+
+/* ---------- Listado Neon ---------- */
+.listado-neon{
+  width:100%;
+  max-width:900px;
+  margin:50px auto 30px;
+  padding:20px;
+  border:1px solid #00f3ff;
+  border-radius:15px;
+  box-shadow:0 0 20px #00f3ff,inset 0 0 10px #00f3ff;
+  background:rgba(0,0,0,.85);
+}
+.listado-neon h3{
+  text-align:center;
+  color:#00f3ff;
+  text-shadow:0 0 8px #00f3ff;
+  margin-bottom:15px;
+}
+.vacio{
+  text-align:center;
+  color:#888;
+}
+.tabla-cont{overflow-x:auto}          /* responsivo */
+.neon-table{
+  width:100%;
+  border-collapse:collapse;
+  font-size:.95rem;
+  color:#fff;
+}
+.neon-table th,
+.neon-table td{
+  padding:8px 10px;
+  border:1px solid #00f3ff;
+  text-align:center;
+}
+.neon-table th{
+  background:#00aabb22;
+  color:#00f3ff;
+  text-shadow:0 0 5px #00f3ff;
+}
+.neon-table tr:nth-child(even){background:#111}
+.neon-table tr:hover{background:#003333}
+
+
+.flash-ok{
+  background:#00f3ff22;
+  color:#00f3ff;
+  text-align:center;
+  padding:8px;
+  margin-bottom:15px;
+  border:1px solid #00f3ff;
+  border-radius:5px;
+  text-shadow:0 0 5px #00f3ff;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  .form-container {
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  input, select, button {
+    font-size: 0.95rem;
+  }
+}
+
+
+/* móviles */
+@media(max-width:600px){
+  .neon-table{font-size:.8rem}
+  .neon-table th,
+  .neon-table td{padding:6px 8px}
+}
+
