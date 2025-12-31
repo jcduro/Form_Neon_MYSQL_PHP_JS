@@ -13,7 +13,6 @@
 - [🛠️ Tecnologías](#️-tecnologías)
 - [📦 Características](#-características)
 - [🗃️ Base de datos](#️-base-de-datos)
-- [⚙️ Instalación](#️-instalación)
 - [📂 Estructura](#-estructura)
 - [🤝 Contribuir](#-contribuir)
 - [📄 Licencia](#-licencia)
