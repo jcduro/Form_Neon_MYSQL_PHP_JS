@@ -11,7 +11,7 @@
 ## 📑 Índice
 - [🖼️ Vista Previa](#-vista-previa)
 - [🚀 Demo](#-demo)
-- [🛠️ Tecnologías](#️-tecnologías)
+- [🛠️ Lenguajes y Herramientas](#️-lenguajes-y-herramientas)
 - [📦 Características](#-características)
 - [🗃️ Base de datos](#️-base-de-datos)
 - [📂 Estructura](#-estructura)
